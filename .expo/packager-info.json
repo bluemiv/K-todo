@@ -1,9 +1,10 @@
 {
   "devToolsPort": 19002,
-  "expoServerPort": 19000,
-  "packagerPort": 19001,
-  "packagerPid": 11731,
-  "expoServerNgrokUrl": "https://jz-wnp.anonymous.k-todo.exp.direct",
-  "packagerNgrokUrl": "https://packager.jz-wnp.anonymous.k-todo.exp.direct",
-  "ngrokPid": 11747
+  "expoServerPort": null,
+  "packagerPort": null,
+  "packagerPid": null,
+  "expoServerNgrokUrl": null,
+  "packagerNgrokUrl": null,
+  "ngrokPid": null,
+  "webpackServerPort": null
 }
