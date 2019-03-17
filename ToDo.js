@@ -16,6 +16,7 @@ export default class ToDo extends Component {
         deleteToDo: PropTypes.func.isRequired,
         uncompletedToDo: PropTypes.func.isRequired,
         completedToDo:PropTypes.func.isRequired,
+        updateToDo:PropTypes.func.isRequired,
     }
     render() {
         const { isEditing, toDoValue } = this.state;
@@ -95,6 +96,11 @@ export default class ToDo extends Component {
     }
 
     _finishEditing = () => {
+        const { id, updateToDo } = this.props;
+        const { toDoValue } = this.state;
+        
+        updateToDo(id, toDoValue);
+
         this.setState({
             isEditing: false
         })
